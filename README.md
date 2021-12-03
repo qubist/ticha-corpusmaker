@@ -1,6 +1,6 @@
 ticha-corpusmaker
 
-Make a searchable plaintext corpus from Ticha transcriptions
+Make a searchable plaintext corpus of Colonial Valley Zapotec from Ticha transcriptions
 
 # Background
 
@@ -38,6 +38,39 @@ How to use the cleaner to clean raw Handwritten Text transcriptions:
 * You can change the code to remove more or less extra information from the files.
 * If you run the cleaner again, the files in the `clean-output` folder will be overwritten.
 
+# Searching the corpus
+
+Words in the corpus are not spelled consistently. This is because of inconsistencies in the CVZ writing system, as well as in Ticha's transcription.
+
+Inconsistent spelling makes searching hard. Here are some strategies.
+
+## Search in the Spanish translations
+
+The corpus includes Spanish translations of the Zapotec documents. Most documents have translations. The Spanish spelling and transcription is much more regular than the Zapotec, so searches for words of interest in Spanish can be performed, and the corresponding Zapotec words can be found after.
+
+* Spanish used in the translations is not modern, so although spelling is consistent, it might not be what you expect.
+
+* To help find the corresponding Zapotec for a word in the Spanish translation, you can use names—which are usually written the same way in both texts—to orient yourself.
+
+## Using regexes
+
+Use regular expressions to search across know spelling variations
+
+Maguey ma[gq]((uey)|(ei))
+
+## Common spelling/transcription variation
+
+toba -> ttoba
+vowels often doubled
+b sometimes appears as v or u
+s and z interchangeable
+v and b sometimes interchangeable
+
+## Searching across lines
+
+Sometimes words are split across lines so watch out for that.
+
+
 # License
 
-[MIT](LICENSE)
+Code in `cleaner.py` and `crawler.py` is licensed under the [MIT](LICENSE) license. Contents of the `corpus` directory are property of [Ticha](https://ticha.haverford.edu) and license information can be found there.
