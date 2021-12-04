@@ -63,12 +63,17 @@ Maguey `ma[gq]((uey)|(ei))`
 ## Common spelling/transcription variation
 
 ### In Zapotec
+
 Consonants are sometimes doubled: `toba` -> `ttoba`
+
 Vowels are often doubled
 
 ### In Spanish
+
 `b` sometimes appears as `v` or `u`
+
 `s` and `z` are interchangeable
+
 `v` and `b` sometimes interchangeable
 
 ## Searching across lines
