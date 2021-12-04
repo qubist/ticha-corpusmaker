@@ -8,6 +8,8 @@ This project is part of my final project for Linguistics 215: Structure of Colon
 
 More about Ticha: https://ticha.haverford.edu/en/about/
 
+Read the full paper associated with this code and data: FIXME
+
 # Documentation
 
 ## crawler.py
@@ -56,15 +58,18 @@ The corpus includes Spanish translations of the Zapotec documents. Most document
 
 Use regular expressions to search across know spelling variations
 
-Maguey ma[gq]((uey)|(ei))
+Maguey `ma[gq]((uey)|(ei))`
 
 ## Common spelling/transcription variation
 
-toba -> ttoba
-vowels often doubled
-b sometimes appears as v or u
-s and z interchangeable
-v and b sometimes interchangeable
+### In Zapotec
+Consonants are sometimes doubled: `toba` -> `ttoba`
+Vowels are often doubled
+
+### In Spanish
+`b` sometimes appears as `v` or `u`
+`s` and `z` are interchangeable
+`v` and `b` sometimes interchangeable
 
 ## Searching across lines
 
