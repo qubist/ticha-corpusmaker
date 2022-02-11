@@ -1,6 +1,8 @@
 ticha-corpusmaker
 
-Make a searchable plaintext corpus of Colonial Valley Zapotec from Ticha transcriptions
+!! NOTE !!
+
+This is an experimental branch used for scraping Ticha's Vocabulary database. It is undocumented. Proceed with caution.
 
 # Background
 
